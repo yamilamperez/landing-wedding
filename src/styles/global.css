@@ -38,3 +38,10 @@ h2 {
 .row-item-2 {
   flex: 2;
 }
+
+
+@media screen and (max-width:720px) {
+.row-container {
+  flex-direction: column;
+}
+}
