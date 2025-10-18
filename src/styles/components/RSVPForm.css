@@ -1,4 +1,7 @@
 .rsvp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 10vh;
   margin-bottom: 5vh;
 }
@@ -16,6 +19,7 @@
 .rsvp form {
   display: flex;
   flex-direction: column;
+  width: 80%;
   gap: 2vh;
 }
 

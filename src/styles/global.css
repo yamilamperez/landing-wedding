@@ -19,7 +19,22 @@ h2 {
 }
 
 .app-container {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
   padding: var(--spacing-lg);
+}
+
+.row-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.row-item-1 {
+  flex: 1;
+}
+
+.row-item-2 {
+  flex: 2;
 }
