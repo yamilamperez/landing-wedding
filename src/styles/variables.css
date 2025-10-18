@@ -1,0 +1,12 @@
+:root {
+  --bg-color:#e9f1d6;
+  --black: #000000;
+  --white: #FFFFFF;
+  --blue: #4f7cac;
+  --hero-title-font: "Cormorant Garamond", serif;
+  --font-title: 'DM Sans', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  --spacing-lg: 2rem;
+  --spacing-md: 1rem;
+  --spacing-sm: 0.5rem;
+}

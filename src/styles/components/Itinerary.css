@@ -1,0 +1,32 @@
+.itinerary {
+  background-color: var(--white);
+  padding: var(--spacing-md);
+  border-radius: 20px;
+  padding: 40px;
+  margin-bottom: var(--spacing-lg);
+}
+
+.itinerary h2 {
+  font-size: 1.2rem;
+  margin-bottom: var(--spacing-sm);
+  border-bottom: 1px solid;
+}
+
+.itinerary ul {
+  list-style: none;
+}
+
+.itinerary li {
+  margin-bottom: var(--spacing-md);
+  font-size: 1rem;
+}
+
+.itinerary a {
+  font-weight: 800;
+  text-decoration: none;
+  color: var(--blue);
+}
+
+.itinerary a :hover {
+  color: var(--black);
+}

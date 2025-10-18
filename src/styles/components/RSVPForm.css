@@ -1,0 +1,47 @@
+.rsvp {
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+
+.rsvp h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-bottom: 5vh;
+}
+
+.rsvp span {
+  color: var(--blue);
+}
+
+.rsvp form {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.rsvp input,
+.rsvp select,
+.rsvp button {
+  padding: var(--spacing-sm);
+  font-size: 1rem;
+  border: 1px solid var(--color-gray);
+  border-radius: 10px;
+}
+
+.rsvp button {
+  background-color: var(--blue);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.rsvp button:hover {
+  background-color: #073762;
+  transition: background-color 0.5s ease;
+}
+
+.gift-note {
+  margin-top: var(--spacing-sm);
+  font-style: italic;
+  color: var(--color-gray);
+}

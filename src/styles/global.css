@@ -1,0 +1,25 @@
+@import './variables.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-color);
+  color: var(--color-dark);
+  line-height: 1.6;
+}
+
+h2 {
+  font-family: var(--font-title);
+  color: var(--black);
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: var(--spacing-lg);
+}
