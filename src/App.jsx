@@ -1,23 +1,14 @@
-import Header from './components/Header';
-import Itinerary from './components/Itinerary';
-import RSVPForm from './components/RSVPForm';
-import Footer from './components/Footer';
-import './styles/global.css';
-import Gift from './components/Gift';
-import Playlist from './components/Playlist';
+import React from 'react';
+import Home from './pages/Home'
+import FormmularioRecibido from './pages/FormularioRecibido'
+import {Routes, Route} from 'react-router-dom'
 
 function App() {
   return (
-    <div className="app-container">
-      <Header />
-      <div className='row-container'>
-        <div className='row-item-1'><Playlist /></div>
-        <div className='row-item-2'><Itinerary /></div>
-      </div>
-      <Gift />
-      <RSVPForm />
-      <Footer />
-    </div>
+    <Routes>
+      <Route path='/' element={<Home />}/>
+      <Route path='/FormularioRecibido' element={<FormmularioRecibido/>}/>
+    </Routes>
   );
 }
 
