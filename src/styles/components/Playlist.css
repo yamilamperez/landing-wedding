@@ -4,12 +4,10 @@
     justify-content: center;
 }
 
-.playlist div {
-    display: flex;
-    padding: 5px;
+.container-playlist img {
+    width: 100%;
 }
 
-.playlist img {
-    width: 100%;
-    border-radius: 20px; 
+.container-playlist :hover {
+    opacity: 95%;
 }

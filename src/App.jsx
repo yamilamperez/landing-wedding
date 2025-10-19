@@ -1,6 +1,6 @@
 import React from 'react';
-import Home from './pages/Home'
-import FormmularioRecibido from './pages/FormularioRecibido'
+import Home from './Screens/Home'
+import FormmularioRecibido from './Screens/FormularioRecibido'
 import {Routes, Route} from 'react-router-dom'
 
 function App() {

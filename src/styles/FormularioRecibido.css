@@ -1,0 +1,33 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.formulario-recibido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--font-body);
+    max-width: 900px;
+    margin: 0 auto;
+    padding: var(--spacing-lg);
+}
+
+.formulario-recibido h1 {
+    font-family: var(--hero-title-font);
+    font-size: 2.5rem;
+    font-weight: 400;
+    width:max-content;
+    color: var(--black);
+    border-bottom: 1px solid var(--black);
+    margin-bottom: 3vh;
+    margin-top: 5vh;
+}
+
+.formulario-recibido h2 {
+    margin-bottom: 1vh;
+    margin-top: 6vh;
+}
