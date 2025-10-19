@@ -1,5 +1,5 @@
 import React from "react";
-import Header from '../Components/Header'
+import Header from '../Components/Header';
 import Itinerary from '../Components/Itinerary';
 import RSVPForm from '../Components/RSVPForm';
 import Footer from '../Components/Footer';
