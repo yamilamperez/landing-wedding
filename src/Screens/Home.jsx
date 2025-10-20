@@ -1,11 +1,11 @@
 import React from "react";
+import '../styles/global.css';
+import Header from '../Components/Header';
+import Playlist from '../Components/Playlist';
 import Itinerary from '../Components/Itinerary';
+import Gift from '../Components/Gift';
 import RSVPForm from '../Components/RSVPForm';
 import Footer from '../Components/Footer';
-import '../styles/global.css';
-import Gift from '../Components/Gift';
-import Playlist from '../Components/Playlist';
-import Header from '../Components/Header';
 
 
 function Home(){
